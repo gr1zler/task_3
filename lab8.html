@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab8</title>
+    <link rel="stylesheet" href="lab8.css">
+    <script type = "text/javascript"
+            src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type = "text/javascript"
+            src = "https://www.tutorialspoint.com/jquery/jquery-3.6.0.js">
+    </script>
+</head>
+<body>
+<div id="log">
+    <h1>Login</h1>
+    <div class="write">
+        <p>Email</p>
+        <input id="email" type="text">
+    </div>
+    <div class="write">
+        <p>Password</p>
+        <input id="password" type="password" name="pass">
+    </div>
+    <button onclick="checkLog()">Login</button>
+</div>
+<div id="end1">
+    Not have an account ? <u><span class="yy">Sign up Here</span></u>
+</div>
+<div id="sign">
+    <h1>Sign Up</h1>
+    <h2>It's free and only takes a minute</h2>
+    <div class="write">
+        <p>Username</p>
+        <input id="username" type="text">
+    </div>
+    <div class="write">
+        <p>Email</p>
+        <input id="mail" type="email">
+    </div>
+    <div class="write">
+        <p>Password</p>
+        <input id="pswrd" type="password">
+    </div>
+    <div class="write">
+        <p>Confirm Password</p>
+        <input id="pswrd2" type="password">
+    </div>
+    <div class="write">
+        <p>Age</p>
+        <input id="age" type="number" max="99" min="1">
+    </div>
+    <div class="wr">
+        <h2 style="margin: 0;">Your Gender</h2>
+<!--        start table lower-->
+        <div style="display: block;text-align: left;width : 150px">
+        <label style="float: left;font-size: 25px">
+            <input type="radio" id="male" name="gen">
+            male
+        </label>
+        <label style="float: left;font-size: 25px">
+            <input type="radio" id="female" name="gen">
+            female
+        </label>
+        </div>
+        <!--        end table under-->
+    </div>
+    <button onclick="checkSign()">Register</button>
+    <p style="padding-top: 15px;padding-bottom: 15px;font-size: 17px">By clicking the Sign-Up button,you agree to our <u>Terms and Condition</u> and <u>Policy Privacy</u></p>
+    <div id="end2">
+        Already have an account ? <u><span class="zz">Log in Here</span></u>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript" src="lab8.js"></script>
+</html>

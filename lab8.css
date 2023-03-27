@@ -1,0 +1,126 @@
+body
+{
+    background-color: darkcyan;
+}
+#log
+{
+    text-align: center;
+    width : 500px;
+    height : 350px;
+    margin : auto auto;
+    background-color : beige;
+    border-radius: 10px;
+}
+#log > h1
+{
+    text-align: center;
+    font-size: 50px;
+}
+button
+{
+    margin-top: 10px;
+    float: bottom;
+    font-size: 40px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    height : 15%;
+    width : 85%;
+    background: chartreuse;
+    border-radius: 10px;
+}
+.write > input
+{
+    font-size: 150%;
+    border : 2px solid #ff945a;
+    border-radius: 5px;
+    width : 99%;
+    height : 100%;
+}
+h2
+{
+    margin: 10px;
+}
+p
+{
+    float: left;
+    margin: 0;
+    font-size: 25px;
+}
+.write
+{
+    display : inline-block;
+    width: 90%;
+    height : 10%
+}
+input:focus
+{
+    outline: none;
+}
+#sign
+{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    position : absolute;
+    top : 30px;
+    text-align: center;
+    width : 500px;
+    height : 775px;
+    background-color : beige;
+    border-radius: 10px;
+}
+#sign > button
+{
+    height : 8%;
+}
+#sign > .write
+{
+    height : 4.5%;
+}
+#end1
+{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px
+}
+#end2
+{
+
+    text-align: center;
+    font-size: 25px
+}
+span
+{
+    color: #763fd2;
+    cursor: pointer
+}
+#qq
+{
+    position: absolute;
+    z-index: 1;
+    width : 200px;
+    height : 100px;
+}
+.wr
+{
+    display: block;
+    margin: auto auto;
+    width : 90%;
+    height : 10%;
+}
+p >u{
+    color: #4c8a01;
+}
+#male
+{
+    width : 20px;
+    height : 20px;
+}
+#female
+{
+    width : 20px;
+    height : 20px;
+}
